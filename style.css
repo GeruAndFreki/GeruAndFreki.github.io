@@ -548,6 +548,7 @@
    width: 100%;
    background: #1243;
  }
+.main-content-2__conteiner__setk{fill:transparent;stroke:#707070;stroke-width:2;}
  .main-content-2__studio-name
  {
   font-family: 'Roboto', sans-serif;
@@ -616,7 +617,7 @@ A.link1
   top: 46%;
   left: 20%;
 }
- 
+
 .romb-advantages-5 {
   position: absolute;
   display: block;
@@ -665,6 +666,7 @@ A.link1
   width: 15%;
   top: 73%;
   left: 65%;
+  .
 }
 /* //content main page 3 */
 .main-content-3
