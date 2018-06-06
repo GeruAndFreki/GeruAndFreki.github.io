@@ -922,7 +922,7 @@
    	}
    }
 
-   /* //content main page 2 @media only screen  */
+   /* //content main page 2 @media only screen  
    @media only screen and (max-width: 768px) {
    	.conteiner-advantages {
    		position: relative;
@@ -1027,7 +1027,7 @@
    		left: 65%;
    	}
    }
-   /* //content main page 3 @media only screen  */
+   /* //content main page 3 @media only screen  
    @media only screen and (max-width: 768px) {
    	.forma
    	{
@@ -1148,4 +1148,4 @@
    		left: 51%;
    		height: 14%;
    	}
-   }
+   }*/
