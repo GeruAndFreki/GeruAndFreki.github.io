@@ -867,7 +867,7 @@
    		left: 37.5%;
    		width: 25%;
    	}
-   	
+   	/* //content main page 2 @media only screen  */
    	.conteiner-advantages {
    		position: relative;
    		display: block;
@@ -903,7 +903,7 @@
    	.romb-advantages-10 {
    		transform: rotate(-90deg);
    	}
-   	
+   	/* //content main page 3 @media only screen  */
    	.forma
    	{
    		position: relative;
@@ -980,7 +980,7 @@
    		left: 37.5%;
    		width: 25%;
    	}
-
+   	/* //content main page 2 @media only screen  */
    	.main-content-2__studio-name
    	{
    		font-size: calc(200vw * 0.03);
@@ -1046,7 +1046,7 @@
    		top: 72%;
    		left: 65%;
    	}
-
+   	/* //content main page 3 @media only screen  */
    	.main-content-3__studio-name
    	{
    		font-size: calc(200vw * 0.03);
