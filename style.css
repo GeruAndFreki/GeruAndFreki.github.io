@@ -815,119 +815,10 @@
    	height: 14%;
    }
 
-   /* //content main page 1 @media only screen  */
-   @media  screen and (max-width: 768px) {
-   	.main-content-1__conteiner {
-   		position: relative;
-   		display: block;
-   		width: 100%;
-   		margin: 0 auto;
-   		padding-top: 20px;
-   	}
 
-   	.main-content-1__conteiner__sections {
-   		position: relative;
-   		display: block;
-   		width:80%;
-   		margin: 0 auto;
-   	}
-   	.main-content-1__studio-name{
-   		font-size: calc(200vw * 0.03);
-   	}
-   	.main-content-1__conteiner__romb__header-text {
-   		font-size: calc(100vw * 0.03);
-   	}
-   	.main-content-1__conteiner__romb__icon {
-   		width: 35%;
-   	}
 
-   	.main-content-1__conteiner__romb__content {
-   		font-size: calc(80vw * 0.03);
-   	}
-   	.p1_romb1 {
-   		top: 16%;
-   		left: 37.5%;
-   		width: 25%;
-   	}
 
-   	.p1_romb2 {
-   		top: 36%;
-   		left: 21%;
-   		width: 25%;
-   	}
-
-   	.p1_romb3 {
-   		top: 36%;
-   		left: 55%;
-   		width: 25%;
-   	}
-
-   	.p1_romb4 {
-   		top: 56%;
-   		left: 37.5%;
-   		width: 25%;
-   	}
-   	/* //content main page 2 @media only screen  */
-   	.conteiner-advantages {
-   		position: relative;
-   		display: block;
-   		width: 85%;
-   		margin-top: 20%;
-   		margin-bottom: 20%;
-   		transform: rotate(90deg);
-   	}
-   	.romb-advantages-1 {
-   		transform: rotate(-90deg);
-   	}
-   	.romb-advantages-2 {
-   		transform: rotate(-90deg);
-   	}
-   	.romb-advantages-3 {
-   		transform: rotate(-90deg);
-   	}
-   	.romb-advantages-4 {
-   		transform: rotate(-90deg);
-   	}
-   	.romb-advantages-5 {
-   		transform: rotate(-90deg);
-   	}
-   	.romb-advantages-6 {
-   		transform: rotate(-90deg);
-   	}
-   	.romb-advantages-8 {
-   		transform: rotate(-90deg);
-   	}
-   	.romb-advantages-9 {
-   		transform: rotate(-90deg);
-   	}
-   	.romb-advantages-10 {
-   		transform: rotate(-90deg);
-   	}
-   	/* //content main page 3 @media only screen  */
-   	.forma
-   	{
-   		position: relative;
-   		width: 97%;
-   	}
-   	.information
-   	{
-   		margin-top: 5%;
-   		position: relative;
-   		width: 100%;
-   	}
-   	.information-text
-   	{
-   		top: 30%;
-   		left: 30%;
-   		bottom: 5%;
-   	}
-   	.information-text-blog
-   	{
-   		top: 53%;
-   		left: 43%;
-   		bottom: 6%;
-   	}
-   }
+   
    @media  screen and (max-width: 570px) {
    	.main-content-1__conteiner {
    		position: relative;
@@ -1140,5 +1031,118 @@
    		top: 60%;
    		left: 51%;
    		height: 14%;
+   	}
+   }
+   /* //content main page 1 @media only screen  */
+   @media  screen and (max-width: 768px) {
+   	.main-content-1__conteiner {
+   		position: relative;
+   		display: block;
+   		width: 100%;
+   		margin: 0 auto;
+   		padding-top: 20px;
+   	}
+
+   	.main-content-1__conteiner__sections {
+   		position: relative;
+   		display: block;
+   		width:80%;
+   		margin: 0 auto;
+   	}
+   	.main-content-1__studio-name{
+   		font-size: calc(200vw * 0.03);
+   	}
+   	.main-content-1__conteiner__romb__header-text {
+   		font-size: calc(100vw * 0.03);
+   	}
+   	.main-content-1__conteiner__romb__icon {
+   		width: 35%;
+   	}
+
+   	.main-content-1__conteiner__romb__content {
+   		font-size: calc(80vw * 0.03);
+   	}
+   	.p1_romb1 {
+   		top: 16%;
+   		left: 37.5%;
+   		width: 25%;
+   	}
+
+   	.p1_romb2 {
+   		top: 36%;
+   		left: 21%;
+   		width: 25%;
+   	}
+
+   	.p1_romb3 {
+   		top: 36%;
+   		left: 55%;
+   		width: 25%;
+   	}
+
+   	.p1_romb4 {
+   		top: 56%;
+   		left: 37.5%;
+   		width: 25%;
+   	}
+   	/* //content main page 2 @media only screen  */
+   	.conteiner-advantages {
+   		position: relative;
+   		display: block;
+   		width: 85%;
+   		margin-top: 20%;
+   		margin-bottom: 20%;
+   		transform: rotate(90deg);
+   	}
+   	.romb-advantages-1 {
+   		transform: rotate(-90deg);
+   	}
+   	.romb-advantages-2 {
+   		transform: rotate(-90deg);
+   	}
+   	.romb-advantages-3 {
+   		transform: rotate(-90deg);
+   	}
+   	.romb-advantages-4 {
+   		transform: rotate(-90deg);
+   	}
+   	.romb-advantages-5 {
+   		transform: rotate(-90deg);
+   	}
+   	.romb-advantages-6 {
+   		transform: rotate(-90deg);
+   	}
+   	.romb-advantages-8 {
+   		transform: rotate(-90deg);
+   	}
+   	.romb-advantages-9 {
+   		transform: rotate(-90deg);
+   	}
+   	.romb-advantages-10 {
+   		transform: rotate(-90deg);
+   	}
+   	/* //content main page 3 @media only screen  */
+   	.forma
+   	{
+   		position: relative;
+   		width: 97%;
+   	}
+   	.information
+   	{
+   		margin-top: 5%;
+   		position: relative;
+   		width: 100%;
+   	}
+   	.information-text
+   	{
+   		top: 30%;
+   		left: 30%;
+   		bottom: 5%;
+   	}
+   	.information-text-blog
+   	{
+   		top: 53%;
+   		left: 43%;
+   		bottom: 6%;
    	}
    }
