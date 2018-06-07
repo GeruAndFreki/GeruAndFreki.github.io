@@ -530,7 +530,7 @@
    .main-content-1__conteiner__romb__icon {
    	margin: -5px;
    	width: 15%;
-   	height: 15%;
+   	margin-bottom: 2%;
    }
 
    .main-content-1__conteiner__romb__content {
@@ -820,7 +820,7 @@
    	.main-content-1__conteiner {
    		position: relative;
    		display: block;
-   		width: 100%;
+   		width:  100%;
    		margin: 0 auto;
    		padding-top: 20px;
    	}
