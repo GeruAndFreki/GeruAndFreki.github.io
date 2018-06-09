@@ -388,19 +388,27 @@ header {
 
 .header__btn-left {
 	float: left;
+	height: 120px;
 }
 
 .header__btn-right {
 	float: right;
+	height: 120px;
 }
 
 .header__logo {
 	float: left;
 	width: calc(100% - 146.9px);
+	height: 120px;
 }
 
 .btn {
 	cursor: pointer;
+}
+
+A.link1 {
+	color: black;
+	text-decoration: none;
 }
 
 /* header button */
@@ -444,14 +452,15 @@ header {
 
 /* //header */
 
-/* content main page 1 */
 
-.main-content-1 {
+.main-content {
 	position: relative;
 	float: left;
 	text-align: center;
 	width: 100%;
 }
+
+/* content main page 1 */
 
 .main-content-1__studio-name {
 	font-family: 'Roboto', sans-serif;
@@ -479,32 +488,28 @@ header {
 .main-content-1__conteiner__romb {
 	position: absolute;
 	display: block;
-	width: 35%;
+	width: 20%;
 	text-align: center;
 }
 
 .p1_romb1 {
 	top: 21%;
 	left: 40%;
-	width: 20%;
 }
 
 .p1_romb2 {
 	top: 42%;
 	left: 29.5%;
-	width: 20%;
 }
 
 .p1_romb3 {
 	top: 42%;
 	left: 50.5%;
-	width: 20%;
 }
 
 .p1_romb4 {
 	top: 61%;
 	left: 40%;
-	width: 20%;
 }
 
 /* romb buttons */
@@ -548,14 +553,7 @@ header {
 
 /* //content main page 2 */
 
-.main-content-2 {
-	position: relative;
-	float: left;
-	text-align: center;
-	width: 100%;
-}
-
-.main-content-2__conteiner__setk {
+.main-content-2__conteiner__grid {
 	fill: transparent;
 	stroke: #000000;
 	stroke-width: 2;
@@ -567,15 +565,6 @@ header {
 	font-size: calc(120vw * 0.03);
 	margin: 5px 0 5px 0;
 	text-align: center;
-}
-
-A.link1 {
-	color: black;
-	text-decoration: none;
-}
-
-.pod_conter {
-	position: relative;
 }
 
 .conteiner-advantages {
@@ -593,96 +582,56 @@ A.link1 {
 	font-weight: 700;
 }
 
-.romb-advantages-1 {
-	z-index: 1;
+.romb-advantages {
 	position: absolute;
-	display: block;
 	margin: 0 auto;
 	text-align: center;
 	width: 15%;
+}
+
+.romb-1 {
 	top: 18%;
 	left: 5%;
 }
 
-.romb-advantages-2 {
-	position: absolute;
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	width: 15%;
+.romb-2 {
 	top: 18%;
 	left: 35%;
 }
 
-.romb-advantages-3 {
-	position: absolute;
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	width: 15%;
+.romb-3 {
 	top: 18%;
 	left: 65%;
 }
 
-.romb-advantages-4 {
-	position: absolute;
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	width: 15%;
+.romb-4 {
 	top: 46%;
 	left: 20%;
 }
 
-.romb-advantages-5 {
-	position: absolute;
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	width: 15%;
+.romb-5 {
 	top: 46%;
 	left: 50%;
 }
 
-.romb-advantages-6 {
-	position: absolute;
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	width: 15%;
+.romb-6 {
 	top: 46%;
 	left: 80%;
 }
 
-.romb-advantages-8 {
-	position: absolute;
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	width: 15%;
+.romb-7 {
 	top: 73%;
 	left: 5%;
 }
 
-.romb-advantages-9 {
-	position: absolute;
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	width: 15%;
+.romb-8 {
 	top: 72%;
 	left: 35%;
 }
 
-.romb-advantages-10 {
-	position: absolute;
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	width: 15%;
+.romb-9 {
 	top: 73%;
 	left: 65%;
-	.
 }
 
 /* //content main page 3 */
@@ -692,14 +641,6 @@ A.link1 {
 	stroke: #000000;
 	stroke-width: 2;
 }
-
-.main-content-3 {
-	position: relative;
-	float: left;
-	text-align: center;
-	width: 100%;
-}
-
 .main-content-3__studio-name {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
