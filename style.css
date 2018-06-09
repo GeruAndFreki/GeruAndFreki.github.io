@@ -76,6 +76,8 @@ pre {
 
 a {
 	background-color: transparent;
+	color: black;
+	text-decoration: none;
 }
 
 /**
@@ -406,11 +408,6 @@ header {
 	cursor: pointer;
 }
 
-A.link1 {
-	color: black;
-	text-decoration: none;
-}
-
 /* header button */
 
 .header__btn__st0 {
@@ -451,7 +448,6 @@ A.link1 {
 /* //header logo */
 
 /* //header */
-
 
 .main-content {
 	position: relative;
@@ -574,7 +570,7 @@ A.link1 {
 	margin: 0 auto;
 }
 
-.text-setka-advantages {
+.grid-text-advantages {
 	text-align: center;
 	margin: 0px;
 	font-size: calc(45vw * 0.03);
@@ -641,6 +637,7 @@ A.link1 {
 	stroke: #000000;
 	stroke-width: 2;
 }
+
 .main-content-3__studio-name {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
@@ -649,13 +646,13 @@ A.link1 {
 	text-align: center;
 }
 
-.forma {
+.form {
 	position: relative;
 	width: 50%;
 	float: left;
 }
 
-.forma-btn {
+.form-btn {
 	text-align: right;
 }
 
@@ -666,7 +663,6 @@ input[type=text] {
 	border-radius: 5px;
 	margin-left: 10px;
 	margin-bottom: 10px;
-	max-width: 95%;
 	width: 100%;
 	font-size: calc(45vw * 0.03);
 }
@@ -678,7 +674,6 @@ textarea {
 	border-radius: 5px;
 	margin-left: 10px;
 	margin-bottom: 10px;
-	max-width: 95%;
 	width: 100%;
 	min-width: 20%;
 	font-size: calc(45vw * 0.03);
@@ -693,7 +688,6 @@ input[type=submit] {
 	border-radius: 5px;
 	width: 40%;
 	font-size: calc(50vw * 0.03);
-	margin-right: 5%;
 	background: transparent;
 }
 
@@ -738,6 +732,7 @@ input[type=submit] {
 	top: 8%;
 	left: 20%;
 	height: 14%;
+	width: 10%;
 }
 
 .information-icon-twitter {
@@ -745,6 +740,7 @@ input[type=submit] {
 	top: 23%;
 	left: 30%;
 	height: 14%;
+	width: 10%;
 }
 
 .information-icon-instagram {
@@ -752,6 +748,7 @@ input[type=submit] {
 	top: 38%;
 	left: 21.5%;
 	height: 14%;
+	width: 10%;
 }
 
 .information-icon-facebook {
@@ -759,6 +756,7 @@ input[type=submit] {
 	top: 38%;
 	left: 40.5%;
 	height: 14%;
+	width: 10%;
 }
 
 .information-icon-google {
@@ -766,6 +764,7 @@ input[type=submit] {
 	top: 53%;
 	left: 29.5%;
 	height: 14%;
+	width: 10%;
 }
 
 .information-icon-youtube {
@@ -773,6 +772,7 @@ input[type=submit] {
 	top: 68%;
 	left: 20.5%;
 	height: 14%;
+	width: 10%;
 }
 
 .information-icon-blog {
@@ -780,6 +780,7 @@ input[type=submit] {
 	top: 60%;
 	left: 51%;
 	height: 14%;
+	width: 10%;
 }
 
 /* //content main page 1 @media only screen  */
@@ -842,33 +843,10 @@ input[type=submit] {
 		margin-bottom: 20%;
 		transform: rotate(90deg);
 	}
-	.romb-advantages-1 {
+	.romb-advantages {
 		transform: rotate(-90deg);
 	}
-	.romb-advantages-2 {
-		transform: rotate(-90deg);
-	}
-	.romb-advantages-3 {
-		transform: rotate(-90deg);
-	}
-	.romb-advantages-4 {
-		transform: rotate(-90deg);
-	}
-	.romb-advantages-5 {
-		transform: rotate(-90deg);
-	}
-	.romb-advantages-6 {
-		transform: rotate(-90deg);
-	}
-	.romb-advantages-8 {
-		transform: rotate(-90deg);
-	}
-	.romb-advantages-9 {
-		transform: rotate(-90deg);
-	}
-	.romb-advantages-10 {
-		transform: rotate(-90deg);
-	}
+
 	/* //content main page 3 @media only screen  */
 	.main-content-3__studio-name {
 		font-size: calc(200vw * 0.03);
@@ -960,59 +938,19 @@ input[type=submit] {
 		margin-top: 25%;
 		margin-bottom: 25%;
 	}
-	.text-setka-advantages {
+	.grid-text-advantages {
 		font-size: calc(70vw * 0.03);
 	}
-	.romb-advantages-1 {
+	.romb-advantages {
 		width: 15%;
 		top: 18%;
 		left: 5%;
-	}
-	.romb-advantages-2 {
-		width: 15%;
-		top: 18%;
-		left: 35%;
-	}
-	.romb-advantages-3 {
-		width: 15%;
-		top: 18%;
-		left: 65%;
-	}
-	.romb-advantages-4 {
-		width: 15%;
-		top: 45%;
-		left: 20%;
-	}
-	.romb-advantages-5 {
-		width: 15%;
-		top: 45%;
-		left: 50%;
-	}
-	.romb-advantages-6 {
-		width: 15%;
-		top: 45%;
-		left: 80%;
-	}
-	.romb-advantages-8 {
-		width: 15%;
-		top: 72%;
-		left: 5%;
-	}
-	.romb-advantages-9 {
-		width: 15%;
-		top: 70%;
-		left: 35%;
-	}
-	.romb-advantages-10 {
-		width: 15%;
-		top: 72%;
-		left: 65%;
 	}
 	/* //content main page 3 @media only screen  */
 	.main-content-3__studio-name {
 		font-size: calc(200vw * 0.03);
 	}
-	.forma {
+	.form {
 		position: relative;
 		width: 97%;
 	}
