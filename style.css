@@ -449,7 +449,7 @@ header {
 
 /* //header */
 
-.main-content {
+.content {
 	position: relative;
 	float: left;
 	text-align: center;
@@ -458,7 +458,7 @@ header {
 
 /* content main page 1 */
 
-.main-content-1__studio-name {
+.content-caption {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: calc(120vw * 0.03);
@@ -466,7 +466,7 @@ header {
 	text-align: center;
 }
 
-.main-content-1__conteiner {
+.content-1__conteiner {
 	position: relative;
 	display: block;
 	width: 70%;
@@ -474,14 +474,14 @@ header {
 	padding-top: 20px;
 }
 
-.main-content-1__conteiner__sections {
+.content-1__conteiner__sections {
 	position: relative;
 	display: block;
 	width: 50%;
 	margin: 0 auto;
 }
 
-.main-content-1__conteiner__romb {
+.content-1__conteiner__romb {
 	position: absolute;
 	display: block;
 	width: 20%;
@@ -510,23 +510,23 @@ header {
 
 /* romb buttons */
 
-.main-content-1__conteiner__romb__a {
+.content-1__conteiner__romb__a {
 	fill: transparent;
 }
 
-.main-content-1__conteiner__romb__e {
+.content-1__conteiner__romb__e {
 	fill: none;
 }
 
-.main-content-1__conteiner__romb__a,
-.main-content-1__conteiner__romb__e {
+.content-1__conteiner__romb__a,
+.content-1__conteiner__romb__e {
 	stroke: #000000;
 	stroke-width: 2px;
 }
 
 /* //romb buttons */
 
-.main-content-1__conteiner__romb__header-text {
+.content-1__conteiner__romb__header-text {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
@@ -534,13 +534,17 @@ header {
 	margin: 0px;
 }
 
-.main-content-1__conteiner__romb__icon {
+.content-1__conteiner__romb__icon {
 	margin: -5px;
 	width: 35%;
 	margin-bottom: 2%;
+	fill: none;
+	stroke: #3F3F3F;
+	stroke-linecap: round;
+	stroke-linejoin: round;
 }
 
-.main-content-1__conteiner__romb__content {
+.content-1__conteiner__romb__content {
 	margin: 0px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
@@ -549,13 +553,13 @@ header {
 
 /* //content main page 2 */
 
-.main-content-2__conteiner__grid {
+.content-2__conteiner__grid {
 	fill: transparent;
 	stroke: #000000;
 	stroke-width: 2;
 }
 
-.main-content-2__studio-name {
+.content-2__studio-name {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: calc(120vw * 0.03);
@@ -638,7 +642,7 @@ header {
 	stroke-width: 2;
 }
 
-.main-content-3__studio-name {
+.content-3__studio-name {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: calc(120vw * 0.03);
@@ -780,29 +784,29 @@ input[type=submit] {
 /* //content main page 1 @media only screen  */
 
 @media screen and (max-width: 768px) {
-	.main-content-1__conteiner {
+	.content-1__conteiner {
 		position: relative;
 		display: block;
 		width: 100%;
 		margin: 0 auto;
 		padding-top: 20px;
 	}
-	.main-content-1__conteiner__sections {
+	.content-1__conteiner__sections {
 		position: relative;
 		display: block;
 		width: 80%;
 		margin: 0 auto;
 	}
-	.main-content-1__studio-name {
+	.content-1__studio-name {
 		font-size: calc(200vw * 0.03);
 	}
-	.main-content-1__conteiner__romb__header-text {
+	.content-1__conteiner__romb__header-text {
 		font-size: calc(100vw * 0.03);
 	}
-	.main-content-1__conteiner__romb__icon {
+	.content-1__conteiner__romb__icon {
 		width: 35%;
 	}
-	.main-content-1__conteiner__romb__content {
+	.content-1__conteiner__romb__content {
 		font-size: calc(80vw * 0.03);
 	}
 	.p1_romb1 {
@@ -826,7 +830,7 @@ input[type=submit] {
 		width: 25%;
 	}
 	/* //content main page 2 @media only screen  */
-	.main-content-2__studio-name {
+	.content-2__studio-name {
 		font-size: calc(200vw * 0.03);
 	}
 	.conteiner-advantages {
@@ -840,9 +844,8 @@ input[type=submit] {
 	.romb-advantages {
 		transform: rotate(-90deg);
 	}
-
 	/* //content main page 3 @media only screen  */
-	.main-content-3__studio-name {
+	.content-3__studio-name {
 		font-size: calc(200vw * 0.03);
 	}
 	.form {
@@ -878,29 +881,29 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 570px) {
-	.main-content-1__conteiner {
+	.content-1__conteiner {
 		position: relative;
 		display: block;
 		width: 100%;
 		margin: 0 auto;
 		padding-top: 20px;
 	}
-	.main-content-1__conteiner__sections {
+	.content-1__conteiner__sections {
 		position: relative;
 		display: block;
 		width: 80%;
 		margin: 0 auto;
 	}
-	.main-content-1__studio-name {
+	.content-1__studio-name {
 		font-size: calc(200vw * 0.03);
 	}
-	.main-content-1__conteiner__romb__header-text {
+	.content-1__conteiner__romb__header-text {
 		font-size: calc(100vw * 0.03);
 	}
-	.main-content-1__conteiner__romb__icon {
+	.content-1__conteiner__romb__icon {
 		width: 35%;
 	}
-	.main-content-1__conteiner__romb__content {
+	.content-1__conteiner__romb__content {
 		font-size: calc(80vw * 0.03);
 	}
 	.p1_romb1 {
@@ -924,7 +927,7 @@ input[type=submit] {
 		width: 25%;
 	}
 	/* //content main page 2 @media only screen  */
-	.main-content-2__studio-name {
+	.content-2__studio-name {
 		font-size: calc(200vw * 0.03);
 	}
 	.conteiner-advantages {
@@ -941,7 +944,7 @@ input[type=submit] {
 		left: 5%;
 	}
 	/* //content main page 3 @media only screen  */
-	.main-content-3__studio-name {
+	.content-3__studio-name {
 		font-size: calc(200vw * 0.03);
 	}
 	.form {
@@ -1020,4 +1023,34 @@ input[type=submit] {
 		left: 51%;
 		height: 14%;
 	}
+}
+
+.dev-sprite {}
+
+.promo-sprite {}
+
+.accomp-sprite {}
+
+.optim-sprite {}
+
+#st0 {
+	fill: none;
+	stroke: #3F3F3F;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+#st1 {
+	fill: #C2C2C2;
+}
+
+#st2 {
+	fill: none;
+	stroke: #151515;
+	stroke-width: 1.5;
+}
+
+#st3 {
+	fill: none;
+	stroke: #151515;
 }
