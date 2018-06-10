@@ -536,7 +536,7 @@ header {
 
 .main-content-1__conteiner__romb__icon {
 	margin: -5px;
-	width: 15%;
+	width: 35%;
 	margin-bottom: 2%;
 }
 
@@ -657,24 +657,20 @@ header {
 }
 
 input[type=text] {
+	float: right;
 	padding: 5px;
 	border: 2px solid #000000;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	margin-left: 10px;
 	margin-bottom: 10px;
-	width: 100%;
+	width: 95%;
 	font-size: calc(45vw * 0.03);
 }
 
 textarea {
+	float: right;
 	padding: 5px;
 	border: 2px solid #000000;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	margin-left: 10px;
 	margin-bottom: 10px;
-	width: 100%;
+	width: 95%;
 	min-width: 20%;
 	font-size: calc(45vw * 0.03);
 	resize: none;
@@ -684,8 +680,6 @@ input[type=submit] {
 	padding: 5px 15px;
 	border: 2px solid #000000;
 	cursor: pointer;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
 	width: 40%;
 	font-size: calc(50vw * 0.03);
 	background: transparent;
@@ -851,7 +845,7 @@ input[type=submit] {
 	.main-content-3__studio-name {
 		font-size: calc(200vw * 0.03);
 	}
-	.forma {
+	.form {
 		position: relative;
 		width: 97%;
 	}
