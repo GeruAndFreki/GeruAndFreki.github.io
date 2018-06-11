@@ -399,7 +399,6 @@ header {
 	position: absolute;
 	height: 100%;
 	right: 0%;
-
 }
 
 .header__logo {
@@ -414,7 +413,9 @@ header {
 
 /* header button */
 
-.header__btn__st0, .content-2__conteiner__grid{
+.header__btn__st0,
+.content-2__conteiner__grid,
+.conteiner-information__main3 {
 	fill: transparent;
 	stroke: #000000;
 	stroke-width: 2;
@@ -628,22 +629,7 @@ header {
 
 /* //content main page 3 */
 
-.main3 {
-	fill: transparent;
-	stroke: #000000;
-	stroke-width: 2;
-}
-
-.content-3__studio-name {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-size: calc(120vw * 0.03);
-	margin: 5px 0 5px 0;
-	text-align: center;
-}
-
 .form {
-	position: relative;
 	width: 50%;
 	float: left;
 }
@@ -652,7 +638,7 @@ header {
 	text-align: right;
 }
 
-input[type=text] {
+.form-text {
 	float: right;
 	padding: 5px;
 	border: 2px solid #000000;
@@ -662,13 +648,6 @@ input[type=text] {
 }
 
 textarea {
-	float: right;
-	padding: 5px;
-	border: 2px solid #000000;
-	margin-bottom: 10px;
-	width: 95%;
-	min-width: 20%;
-	font-size: calc(45vw * 0.03);
 	resize: none;
 }
 
@@ -710,87 +689,62 @@ input[type=submit] {
 }
 
 .conteiner-information {
-	z-index: 999;
-	position: relative;
-	display: block;
 	width: 68%;
 	margin: 0 auto;
 }
 
-.information-icon-vk {
+.information-social-icon {
 	position: absolute;
+	height: 14%;
+	width: 10%;
+}
+
+.icon-vk {
 	top: 8%;
 	left: 20%;
-	height: 14%;
-	width: 10%;
 }
 
-.information-icon-twitter {
-	position: absolute;
+.icon-twitter {
 	top: 23%;
-	left: 30%;
-	height: 14%;
-	width: 10%;
+	left: 29%;
 }
 
-.information-icon-instagram {
-	position: absolute;
+.icon-instagram {
 	top: 38%;
-	left: 21.5%;
-	height: 14%;
-	width: 10%;
+	left: 20%;
 }
 
-.information-icon-facebook {
-	position: absolute;
+.icon-facebook {
 	top: 38%;
-	left: 40.5%;
-	height: 14%;
-	width: 10%;
+	left: 37.5%;
 }
 
-.information-icon-google {
-	position: absolute;
+.icon-google {
 	top: 53%;
 	left: 29.5%;
-	height: 14%;
-	width: 10%;
 }
 
-.information-icon-youtube {
-	position: absolute;
-	top: 68%;
-	left: 20.5%;
-	height: 14%;
-	width: 10%;
+.icon-youtube {
+	top: 67%;
+	left: 20%;
 }
 
-.information-icon-blog {
-	position: absolute;
+.icon-blog {
 	top: 60%;
 	left: 51%;
-	height: 14%;
-	width: 10%;
 }
 
 /* //content main page 1 @media only screen  */
 
 @media screen and (max-width: 768px) {
 	.content-1__conteiner {
-		position: relative;
-		display: block;
 		width: 100%;
 		margin: 0 auto;
 		padding-top: 20px;
 	}
 	.content-1__conteiner__sections {
-		position: relative;
-		display: block;
 		width: 80%;
 		margin: 0 auto;
-	}
-	.content-1__studio-name {
-		font-size: calc(200vw * 0.03);
 	}
 	.content-1__conteiner__romb__header-text {
 		font-size: calc(100vw * 0.03);
@@ -804,30 +758,21 @@ input[type=submit] {
 	.p1_romb1 {
 		top: 16%;
 		left: 37.5%;
-		width: 25%;
 	}
 	.p1_romb2 {
 		top: 36%;
 		left: 21%;
-		width: 25%;
 	}
 	.p1_romb3 {
 		top: 36%;
 		left: 55%;
-		width: 25%;
 	}
 	.p1_romb4 {
 		top: 56%;
 		left: 37.5%;
-		width: 25%;
 	}
 	/* //content main page 2 @media only screen  */
-	.content-2__studio-name {
-		font-size: calc(200vw * 0.03);
-	}
 	.conteiner-advantages {
-		position: relative;
-		display: block;
 		width: 85%;
 		margin-top: 20%;
 		margin-bottom: 20%;
@@ -837,11 +782,7 @@ input[type=submit] {
 		transform: rotate(-90deg);
 	}
 	/* //content main page 3 @media only screen  */
-	.content-3__studio-name {
-		font-size: calc(200vw * 0.03);
-	}
 	.form {
-		position: relative;
 		width: 97%;
 	}
 	input[type=text] {
@@ -853,7 +794,6 @@ input[type=submit] {
 	}
 	input[type=submit] {
 		font-size: calc(100vw * 0.03);
-		background: transparent;
 	}
 	.information {
 		margin-top: 5%;
@@ -874,20 +814,13 @@ input[type=submit] {
 
 @media screen and (max-width: 570px) {
 	.content-1__conteiner {
-		position: relative;
-		display: block;
 		width: 100%;
 		margin: 0 auto;
 		padding-top: 20px;
 	}
 	.content-1__conteiner__sections {
-		position: relative;
-		display: block;
 		width: 80%;
 		margin: 0 auto;
-	}
-	.content-1__studio-name {
-		font-size: calc(200vw * 0.03);
 	}
 	.content-1__conteiner__romb__header-text {
 		font-size: calc(100vw * 0.03);
@@ -901,27 +834,20 @@ input[type=submit] {
 	.p1_romb1 {
 		top: 20%;
 		left: 37.5%;
-		width: 25%;
 	}
 	.p1_romb2 {
 		top: 40%;
 		left: 21%;
-		width: 25%;
 	}
 	.p1_romb3 {
 		top: 40%;
 		left: 55%;
-		width: 25%;
 	}
 	.p1_romb4 {
 		top: 60%;
 		left: 37.5%;
-		width: 25%;
 	}
 	/* //content main page 2 @media only screen  */
-	.content-2__studio-name {
-		font-size: calc(200vw * 0.03);
-	}
 	.conteiner-advantages {
 		width: 100%;
 		margin-top: 25%;
@@ -936,11 +862,7 @@ input[type=submit] {
 		left: 5%;
 	}
 	/* //content main page 3 @media only screen  */
-	.content-3__studio-name {
-		font-size: calc(200vw * 0.03);
-	}
 	.form {
-		position: relative;
 		width: 97%;
 	}
 	input[type=text] {
@@ -952,7 +874,6 @@ input[type=submit] {
 	}
 	input[type=submit] {
 		font-size: calc(100vw * 0.03);
-		background: transparent;
 	}
 	.information {
 		margin-top: 5%;
@@ -967,52 +888,38 @@ input[type=submit] {
 		top: 48%;
 	}
 	.conteiner-information {
-		z-index: 999;
-		position: relative;
-		display: block;
 		width: 68%;
 		margin: 0 auto;
 	}
-	.information-icon-vk {
-		position: absolute;
+	.information-social-icon {
+		height: 14%;
+	}
+	.icon-vk {
 		top: 8%;
 		left: 20%;
-		height: 14%;
 	}
-	.information-icon-twitter {
-		position: absolute;
+	.icon-twitter {
 		top: 23%;
 		left: 30%;
-		height: 14%;
 	}
-	.information-icon-instagram {
-		position: absolute;
+	.icon-instagram {
 		top: 38%;
 		left: 21.5%;
-		height: 14%;
 	}
-	.information-icon-facebook {
-		position: absolute;
+	.icon-facebook {
 		top: 38%;
 		left: 40.5%;
-		height: 14%;
 	}
 	.information-icon-google {
-		position: absolute;
 		top: 53%;
 		left: 29.5%;
-		height: 14%;
 	}
-	.information-icon-youtube {
-		position: absolute;
+	.icon-youtube {
 		top: 68%;
 		left: 20.5%;
-		height: 14%;
 	}
-	.information-icon-blog {
-		position: absolute;
+	.icon-blog {
 		top: 60%;
 		left: 51%;
-		height: 14%;
 	}
 }
