@@ -383,24 +383,26 @@ template {
 header {
 	position: relative;
 	float: left;
+	text-align: center;
 	height: 120px;
 	width: 100%;
 	margin-top: 20px;
 }
 
 .header__btn-left {
-	float: left;
+	position: absolute;
 	height: 120px;
+	left: 0%;
 }
 
 .header__btn-right {
-	float: right;
+	position: absolute;
 	height: 120px;
+	right: 0%;
 }
 
 .header__logo {
-	float: left;
-	width: calc(100% - 146.9px);
+	position: relative;
 	height: 120px;
 }
 
@@ -537,6 +539,7 @@ header {
 .content-1__conteiner__romb__icon {
 	margin: -5px;
 	width: 35%;
+	height: 65px;
 	margin-bottom: 2%;
 	fill: none;
 	stroke: #3F3F3F;
@@ -1023,34 +1026,4 @@ input[type=submit] {
 		left: 51%;
 		height: 14%;
 	}
-}
-
-.dev-sprite {}
-
-.promo-sprite {}
-
-.accomp-sprite {}
-
-.optim-sprite {}
-
-#st0 {
-	fill: none;
-	stroke: #3F3F3F;
-	stroke-linecap: round;
-	stroke-linejoin: round;
-}
-
-#st1 {
-	fill: #C2C2C2;
-}
-
-#st2 {
-	fill: none;
-	stroke: #151515;
-	stroke-width: 1.5;
-}
-
-#st3 {
-	fill: none;
-	stroke: #151515;
 }
